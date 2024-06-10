@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes">
+    <title>Authentication Pages</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/jquery.listtopie.css">
+    <link rel="stylesheet" href="assets/chart.css">
+
+</head>
+<body>
+    <h1>Desktop Screens</h1>
+    <h2>Sign In Screen</h2>
+    <div class="container">
+        <div class="auth-container">
+            <!-- Sign In Screen -->
+            <div id="signInSection" class="auth-screen sign-in">
+                <div class="auth-box">
+                    <div class="auth-left">
+                        <div class="logo">
+                            <h6>Your Logo</h6>
+                        </div>
+                        <h3>Sign in to</h3>
+                        <h4>Lorem Ipsum is simply</h4>
+                        <div class="illustration-container">
+                            <div>
+                                <p>If you don't have an  account register </p>
+                                <p>You can <a href="#signUpSection" class="auth-link">Register here!</a></p>
+                            </div>
+                            <img src="images/Rectangle 2@2x.png" alt="Illustration" class="illustration">
+                        </div>
+                    </div>
+                    <div style class="auth-right">
+                        <h5>Sign in</h5>
+                        <!-- <div style="display: flex; flex-direction: column;"> -->
+                        <input type="text" placeholder="Enter email or user name">
+                        <input type="password" placeholder="Password ">
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                        <button onclick="location.href='#landingPage'" class="auth-button">Login</button>
+                        <p style="color:#B5B5B5; padding-left: 130px;">or continue with</p>
+                        <div class="social-login">
+                            <img src="images/Path 15.png" alt="Facebook" >
+                            <img src="images/Group 24.png" alt="Google" >
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sign Up Screen -->
+             
+            <div id="signUpSection" class="auth-screen sign-up">
+                <div class="auth-box">
+                    <div class="auth-left">
+                        <h3>Sign Up to</h3>
+                        <h4>Lorem Ipsum is simply</h4>
+                        <div class="illustration-container">
+                            <div class="auth-text">
+                                <p>If you already have an account,</p>
+                                <p>You can <a href="#signInSection" class="auth-link">Login here!</a></p>
+                            </div>
+                            <img src="/images/Rectangle 2@2x.png" alt="Illustration" class="illustration">
+                        </div>
+                    </div>
+                    <div class="auth-right">
+                        <h5>Sign Up</h5>
+                        <input type="email" placeholder="Enter email">
+                        <input type="text" placeholder="Create user name">
+                        <input type="text" placeholder="Contact number">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Confirm Password">
+                        <button onclick="location.href='#landingPage'" class="auth-button">Register</button>
+                        <p style="color:#B5B5B5; padding-left: 130px;">or continue with </p>
+                        <div class="social-login">
+                            <img src="/images/Path 15.png" alt="Facebook" >
+                            <img src="/images/Group 24.png" alt="Google">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Landing Page -->
+        <div id="landingPage" class="landing-page">
+            <h2>Landing Page</h2>
+            <div class="dashboard-container">
+                <div class="sidebar">
+                    <div class="sidebar-header">
+                    <i class="fas fa-piggy-bank"></i> BankDash
+                       
+                    </div>
+                    <div class="sidebar-menu">
+                        <ul>
+                            <li class="active"><i class="fas fa-home"></i>Dashboard</li>
+                            <li><i class="fas fa-exchange-alt"></i>Transactions</li>
+                            <li><i class="fas fa-user"></i>Accounts</li>
+                            <li><i class="fas fa-chart-line"></i>Investments</li>
+                            <li><i class="fas fa-credit-card"></i>Credit Cards</li>
+                            <li><i class="fas fa-hand-holding-usd"></i>Loans</li>
+                            <li><i class="fas fa-cogs"></i>Services</li>
+                            <li><i class="fas fa-gift"></i>My Privileges</li>
+                            <li><i class="fas fa-cog"></i>Settings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="header">
+                        <h1>Overview</h1>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search for something">
+                        </div>
+                        <div class="user-profile">
+                            <img src="/user-profile.jpg" alt="User Profile">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="cards-overview">
+                            <h3>My Cards</h3>
+                            <div class="card-details">
+                                <div class="card-item" >
+                                    
+                                    <img src="/images/Chip_Card.png" class="illustration1">
+                                    
+                                    <p>Balance: $5,756</p>
+                                    <p>Card Holder: Eddy Cusuma</p><br>
+                                    <p  ></p>Valid Thru: 12/22 </p>
+                                 
+                                    <p>Card Number: 3778 **** **** 1234</p>
+                                </div>
+                                <div class="card-items">
+                                    <p>Balance: $5,756</p>
+                                    <br>
+                                    <p>Card Holder: Eddy Cusuma</p>
+                                    <p>Valid Thru: 12/22</p>
+                                    <p>Card Number: 3778 **** **** 1234</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-transaction">
+                            <h3>Recent Transaction</h3>
+                            <ul>
+                                <li><p>Deposit from my Card</p><p class="amount negative">-$850</p></li>
+                                <li><p>Deposit Paypal</p><p class="amount positive">+$2,500</p></li>
+                                <li><p>Jemi Wilson</p><p class="amount positive">+$5,400</p></li>
+                            </ul>
+                        </div>
+                        <div class="weekly-activity">
+                            <h3> Expense Statistics</h3>
+                            <!-- Weekly Activity Chart -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                              <div id="static">
+                            <div data-lcolor="#ffb6b9">30% Entertainment</div>
+                            <div data-lcolor="#fae3d9">15% Bill Expense</div>
+                            <div data-lcolor="#bbded6">35% Others</div>
+                            <div data-lcolor="#61c0bf"></div>
+                          </div>
+                          </div>
+                        </div>
+     
+                        </div>
+                        <div class="expense-statistics">
+                            <h3>Weekly Activity</h3>                   
+                            <div class="chart">
+                              <ul class="bar-chart" data-bars="[[4,2],[4,5],[10,3]]" data-max="10"  data-grid="0"></ul>
+                        </div>
+                            <!-- Expense Statistics Chart -->
+                        </div>
+                        <div class="quick-transfer">
+                            <h3>Quick Transfer</h3>
+                            <div class="transfer-details">
+                                <div class="transfer-item">
+                                    <img src="/images/pexels-christina-morillo-1181690 1.png" alt="Livia Bator">
+                                    <p>Livia Bator</p>
+                                    <p>CEO</p>
+                                </div>
+                                <div class="transfer-item">
+                                    <img src="/images/marcel-strauss-Uc_tOqa_jDY-unsplash 1.png" alt="Randy Press">
+                                    <p>Randy Press</p>
+                                    <p>Director</p>
+                                </div>
+                                <div class="transfer-item">
+                                    <img src="/images/image copy 2.png" alt="Workman">
+                                    <p>Workman</p>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                            <input type="text" placeholder="Write Amount">
+                            <button class="auth-button">Send</button>
+                        </div>
+                        <div class="balance-history">
+                            <h3>Balance History</h3>
+                            <!-- Balance History Chart -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+<script type="text/javascript" src="assets/jquery.listtopie.min.js"></script>
+<script src="assets/jquery.chart.js"></script>
+<script>
+    $('#static').listtopie({
+      startAngle:0,
+      strokeWidth:0,
+        hoverEvent:false,
+        drawType:'round',
+        speedDraw:150,
+        hoverColor:'#ffffff',
+        textColor:'#000',
+        strokeColor:'#ffffff',
+        textSize:'16',
+        hoverAnimate:true,
+        marginCenter:1,
+        sectorRotate:true,
+        easingType:mina.bounce,
+        infoText:true,
+    });
+    $(function() {
+        $('.chart .bar-chart').cssCharts({type:"bar"});
+    });
+  </script>
+</body>
+</html>
