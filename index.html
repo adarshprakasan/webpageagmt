@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="assets/jquery.listtopie.css">
     <link rel="stylesheet" href="assets/chart.css">
-
 </head>
+
 <body>
+<div>
     <h1>Desktop Screens</h1>
     <h2>Sign In Screen</h2>
-    <div class="container">
+    <div id="screens" class="container">
         <div class="auth-container">
+
             <!-- Sign In Screen -->
             <div id="signInSection" class="auth-screen sign-in">
                 <div class="auth-box">
@@ -200,7 +202,13 @@
             </div>
         </div>
     </div>
-    
+</div>
+
+    <div id="mobileVersion" style="padding-left: 135px;">
+        <button onclick="location.href='/SignInMobile.html'" class="auth-button">Go to Mobile Version</button>
+    </div>
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
 <script type="text/javascript" src="assets/jquery.listtopie.min.js"></script>
